@@ -90,10 +90,11 @@ a:hover {
     right: 0;
 }
 
-/* .texture-paper::before {
+.texture-paper::before {
+    visibility: hidden;
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
-} */
+}
 
 .b-parallax {
     background-attachment: fixed;
@@ -652,6 +653,7 @@ a {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757 !important;
+    text-decoration: none;
 }
 
 .container {
