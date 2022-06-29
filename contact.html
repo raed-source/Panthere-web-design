@@ -119,11 +119,11 @@
                 fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"
               >
                 <div class="form-group">
-                  <label> Nom </label>
+                  <label for="name"> Nom </label>
                   <input id="name" class="form-control" required />
                 </div>
                 <div class="form-group">
-                  <label> Adresse email </label>
+                  <label for="email"> Adresse email </label>
                   <input
                     id="email"
                     class="form-control"
@@ -132,7 +132,9 @@
                   />
                 </div>
                 <div class="form-group">
-                  <label> Comment nous avez-vous connu ? </label>
+                  <label for="input_504">
+                    Comment nous avez-vous connu ?
+                  </label>
                   <input
                     class="form-control"
                     type="email"
@@ -141,7 +143,7 @@
                   />
                 </div>
                 <div class="form-group">
-                  <label>
+                  <label for="message">
                     Brief de votre projet (Ajoutez autant de détails que
                     nécessaire)<br /> </label
                   ><textarea
@@ -152,12 +154,13 @@
                     required
                   ></textarea>
                 </div>
-                <a
-                  href="index.html"
+                <button
+                  type="submit"
                   class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine"
                   id="cta-hero"
-                  >Envoyer</a
                 >
+                  Envoyer
+                </button>
               </form>
             </div>
             <div class="col-sm-6">
@@ -191,28 +194,40 @@
               <div class="row row-no-gutters social">
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="index.html"
+                    <a
+                      class="social"
+                      aria-label="Twitter"
+                      href="http://www.twitter.fr/"
                       ><span class="fa fa-twitter icon-md"></span
                     ></a>
                   </div>
                 </div>
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="index.html"
+                    <a
+                      class="social"
+                      aria-label="Facebook"
+                      href="https://fr-fr.facebook.com"
                       ><span class="fa fa-facebook icon-md"></span
                     ></a>
                   </div>
                 </div>
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="index.html"
+                    <a
+                      class="social"
+                      aria-label="Dribbble"
+                      href="https://dribbble.com"
                       ><span class="fa fa-dribbble icon-md"></span
                     ></a>
                   </div>
                 </div>
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="index.html"
+                    <a
+                      class="social"
+                      aria-label="instagram"
+                      href="https://www.instagram.com"
                       ><span class="fa fa-instagram icon-md"></span
                     ></a>
                   </div>
