@@ -875,8 +875,8 @@ h4 {
         position: relative;
     }
     .bloc {
-        padding-left: ;
-        padding-right: ;
+        padding-left: 0;
+        padding-right: 0;
     }
     .bloc-group,
     .bloc-group .bloc {
